@@ -1,5 +1,6 @@
 **LAB Exercise - Algorand Hackathon Developer**
 
+
 **Table of Contents**
 
 [Getting Started for Hackathon 2](#getting-started-for-hackathon)
@@ -142,7 +143,7 @@ node are here:
 By default, an Algorand installation is configured to run on MainNet.
 For most users, this is the desired outcome.  Developers, however, need
 access to our TestNet or DevNet networks. This
-[\<span class="underline"\>guide\</span\>](https://developer.algorand.org/docs/switching-networks)
+[\\<span class="underline"\>guide\\</span\>](https://developer.algorand.org/docs/switching-networks)
 will walk you through how to switch networks, if you have not already
 done so.
 
@@ -297,27 +298,25 @@ These are the SDKs available to date\. More are on the way\. \*\*\*\*
 Time Estimate - 10 minutes
 
 * Go, see install notes here
-[\<span class="underline"\>https://github.com/algorand/go-algorand-sdk\</span\>](https://github.com/algorand/go-algorand-sdk)
+[\\<span class="underline"\>https://github.com/algorand/go-algorand-sdk\\</span\>](https://github.com/algorand/go-algorand-sdk)
     * See Go SDK documentation here:
-    [\<span class="underline"\>https://godoc.org/github.com/algorand/go-algorand-sdk\</span\>](https://godoc.org/github.com/algorand/go-algorand-sdk)
+    [\\<span class="underline"\>https://godoc.org/github.com/algorand/go-algorand-sdk\\</span\>](https://godoc.org/github.com/algorand/go-algorand-sdk)
 * Python, see install notes here
-[\<span class="underline"\>https://github.com/algorand/py-algorand-sdk\</span\>](https://github.com/algorand/py-algorand-sdk)
+[\\<span class="underline"\>https://github.com/algorand/py-algorand-sdk\\</span\>](https://github.com/algorand/py-algorand-sdk)
     * See Python SDK documentation here:
-    [\<span class="underline"\>https://py-algorand-sdk.readthedocs.io/en/latest/\</span\>](https://py-algorand-sdk.readthedocs.io/en/latest/)
+    [\\<span class="underline"\>https://py-algorand-sdk.readthedocs.io/en/latest/\\</span\>](https://py-algorand-sdk.readthedocs.io/en/latest/)
 * Java, see install notes here
-[\<span class="underline"\>https://github.com/algorand/java-algorand-sdk\</span\>](https://github.com/algorand/java-algorand-sdk)
+[\\<span class="underline"\>https://github.com/algorand/java-algorand-sdk\\</span\>](https://github.com/algorand/java-algorand-sdk)
     * See Java documentation here
     <span class="underline"><a href="https://algorand.github.io/java-algorand-sdk/">https://algorand.github.io/java-algorand-sdk/</a>&nbsp;</span>
-
-
 * JavaScript, see install notes here
-[\<span class="underline"\>https://github.com/algorand/js-algorand-sdk\</span\>](https://github.com/algorand/js-algorand-sdk)
+[\\<span class="underline"\>https://github.com/algorand/js-algorand-sdk\\</span\>](https://github.com/algorand/js-algorand-sdk)
     * See JavaScript SDK documentation
-    visit [\<span class="underline"\>https://developer.algorand.org\</span\>](https://developer.algorand.org/)
+    visit [\\<span class="underline"\>https://developer.algorand.org\\</span\>](https://developer.algorand.org/)
 
 > \*\* If you do not see your language of choice\, we have two swagger
 > files that you can load in at
-> [\<span class="underline"\>https://app.swaggerhub.com\</span\>](https://app.swaggerhub.com/)
+> [\\<span class="underline"\>https://app.swaggerhub.com\\</span\>](https://app.swaggerhub.com/)
 > to generate your own client. The swagger definition json files are for
 > Algod and kmd.
 > 
@@ -329,14 +328,14 @@ Time Estimate - 10 minutes
 > 
 > These swagger.json files can also be loaded into code agnostic tools
 > such as
-> [\<span class="underline"\>Postman\</span\>](https://www.getpostman.com/downloads/)
-> or [\<span class="underline"\>Paw\</span\>](https://paw.cloud/) for REST
+> [\\<span class="underline"\>Postman\\</span\>](https://www.getpostman.com/downloads/)
+> or [\\<span class="underline"\>Paw\\</span\>](https://paw.cloud/) for REST
 > API testing. To generate the latest swagger definitions, use the
 > following commands…
 > 
 > For **Alogd** use:
 > 
-> [\<span class="underline"\>http://localhost:8080/swagger.json\</span\>](http://localhost:8080/swagger.json)
+> [\\<span class="underline"\>http://localhost:8080/swagger.json\\</span\>](http://localhost:8080/swagger.json)
 > or
 > 
 > curl http://$(cat ~/node/data/algod.net)/swagger.json >
@@ -350,7 +349,7 @@ Time Estimate - 10 minutes
 > 
 > For **kmd** use:
 > 
-> [\<span class="underline"\>http://localhost:7833/swagger.json\</span\>](http://localhost:7833/swagger.json)
+> [\\<span class="underline"\>http://localhost:7833/swagger.json\\</span\>](http://localhost:7833/swagger.json)
 > 
 > or
 > 
@@ -365,7 +364,7 @@ Time Estimate - 10 minutes
 > swaggerkmd.json
 > 
 > Then import at
-> [\<span class="underline"\>https://app.swaggerhub.com\</span\>](https://app.swaggerhub.com/)
+> [\\<span class="underline"\>https://app.swaggerhub.com\\</span\>](https://app.swaggerhub.com/)
 > and select CodeGen Options for the Client SDK in the desired language
 > 
 > ![A screenshot of a cell phone Description automatically
@@ -428,7 +427,7 @@ generated](images/media/image7.png)**
 ## Start two terminal sessions
 
 * In the first one, start localhost using
-[\<span class="underline"\>http-server\</span\>](https://www.npmjs.com/package/http-server):
+[\\<span class="underline"\>http-server\\</span\>](https://www.npmjs.com/package/http-server):
 Navigate to algorandsamples folder with finder and right click to
 start terminal session in that folder. Then enter:
 
@@ -488,7 +487,7 @@ When having a team of hackers, it might be useful to communicate API
 discussions with a code agnostic tool, as team members may have
 different programming skill sets.
 
-1. [\<span class="underline"\>https://www.getpostman.com/\</span\>](https://www.getpostman.com/)
+1. [\\<span class="underline"\>https://www.getpostman.com/\\</span\>](https://www.getpostman.com/)
 2. To get the latest Algorand swagger.json files use these commands
 from terminal:
 
@@ -518,14 +517,12 @@ generated](images/media/image10.png)
 > generated](images/media/image11.png)
 
 6. Make these changes to the request:
-
-
-1. Click on GET current status node command.
-2. Change http://localhost to
-[\<span class="underline"\>http://127.0.0.1:8080\</span\>](http://127.0.0.1:8080)
+7. Click on GET current status node command.
+8. Change http://localhost to
+[\\<span class="underline"\>http://127.0.0.1:8080\\</span\>](http://127.0.0.1:8080)
 for algod
 and
-[\<span class="underline"\>http://127.0.0.1:7833\</span\>](http://127.0.0.1:7833)
+[\\<span class="underline"\>http://127.0.0.1:7833\\</span\>](http://127.0.0.1:7833)
 for kmd
 If using the hackathon instance change http://localhost to:
 [http://hackathon.algodev.network:9100/](http://hackathon.algodev.network:9100/)
@@ -535,12 +532,12 @@ and add the header
 Key name and token value provided:
 ![A screenshot of a cell phone Description automatically
 generated](images/media/image12.png)
-3. Add header key and value ([\<span class="underline"\>info\</span\>](https://developer.algorand.org/docs/using-sdks-and-rest-apis)
+9. Add header key and value ([\\<span class="underline"\>info\\</span\>](https://developer.algorand.org/docs/using-sdks-and-rest-apis)
 [here](https://developer.algorand.org/docs/using-sdks-and-rest-apis))
 The API Token for the algod process is named X-Algo-API-Token and
 the kmd's is named X-KMD-API-Token.
-4. Press Send to send the request
-5. See the response
+10. Press Send to send the request
+11. See the response
 
 > ![A screenshot of a social media post Description automatically
 > generated](images/media/image13.png)
@@ -667,7 +664,7 @@ the Algorand SDKs, can be used to access the Private Network.
 This exercise is suggested for developers that are just getting started
 with Algorand.
 
-Note: the [\<span class="underline"\>Algorand TestNet\</span\>](https://bank.testnet.algorand.network/)
+Note: the [\\<span class="underline"\>Algorand TestNet\\</span\>](https://bank.testnet.algorand.network/)
 [Dispenser](https://bank.testnet.algorand.network/), a tool used
 to send Algos to an account, only works for TestNet and not a Private
 Network.
@@ -701,7 +698,7 @@ generated](images/media/image25.png)
 ![A screenshot of a cell phone Description automatically
 generated](images/media/image26.png)
 6. (Optional) The full set of Private Network tutorials are here:
-[\<span class="underline"\>https://developer.algorand.org/docs/tutorials\</span\>](https://developer.algorand.org/docs/tutorials).
+[\\<span class="underline"\>https://developer.algorand.org/docs/tutorials\\</span\>](https://developer.algorand.org/docs/tutorials).
 This is a great learning resource.
 
 > ![A screenshot of a cell phone Description automatically
@@ -735,9 +732,9 @@ testing with SDK code. Delete the Private Network
 
 <span class="underline"><a href="#bookmark=id.3ygebqi">Go SDK</a></span>
 
-> [\<span class="underline"\>Java SDK\</span\>](#java-sdk)
+> [\\<span class="underline"\>Java SDK\\</span\>](#java-sdk)
 > 
-> [\<span class="underline"\>Python SDK\</span\>](#python-sdk)
+> [\\<span class="underline"\>Python SDK\\</span\>](#python-sdk)
 > 
 > <span id="bookmark=id.111kx3o" class="anchor"></span>**JavaScript
 > SDK
@@ -763,7 +760,7 @@ the Algorand JavaScript GitHub repository to clone or download and
 note to the examples/webapp folder. This is the code we will use to
 learn the JavaScript SDK from.
 
-[\<span class="underline"\>https://github.com/algorand/js-algorand-sdk\</span\>](https://github.com/algorand/js-algorand-sdk)
+[\\<span class="underline"\>https://github.com/algorand/js-algorand-sdk\\</span\>](https://github.com/algorand/js-algorand-sdk)
 
 ![A screenshot of a cell phone Description automatically
 generated](images/media/image30.png)
@@ -785,13 +782,11 @@ localhost:
 > ![A screenshot of a social media post Description automatically
 > generated](images/media/image29.png)
 
-8. **Run sample by navigating to the test.html page and click on
-buttons in this order:**
-
-
-1. \> Get Latest Block
-2. \> Generate Account
-3. \> Get Account Details \- note the amount as 0\, need to add money –
+8. **Run sample by navigating to the test.html page and click on**
+**buttons in this order:**
+9. \> Get Latest Block
+10. \> Generate Account
+11. \> Get Account Details \- note the amount as 0\, need to add money –
 
 > copy off account
 
@@ -849,12 +844,10 @@ seconds
 **just used**.
 All of this functionality is accomplished in a little over 200 lines
 of code! How about that!” (Applause) ☺
-
-
-1. Open test.js
-2. Note atoken
-3. Note kmdtoken
-4. If running localhost, see debug console output after scrolling thru
+10. Open test.js
+11. Note atoken
+12. Note kmdtoken
+13. If running localhost, see debug console output after scrolling thru
 code, this should be the same as seen when running the demo.
 
 ![A screenshot of a social media post Description automatically
@@ -866,11 +859,9 @@ generated](images/media/image39.png)
 the free form Note Field. This field is used to create Layer 2
 solutions. Encode it on submit transaction and decode it when
 needed.
-
-
-1. Open test.js
-2. Locate the submit transaction code
-3. Look for the encodeObj method
+11. Open test.js
+12. Locate the submit transaction code
+13. Look for the encodeObj method
 
 ![A screenshot of a social media post Description automatically
 generated](images/media/image40.png)
@@ -919,38 +910,38 @@ console.log(e);
 ### More Examples
 
 12. See
-[\<span class="underline"\>https://developer.algorand.org/docs/javascript-sdk\</span\>](https://developer.algorand.org/docs/javascript-sdk)
+[\\<span class="underline"\>https://developer.algorand.org/docs/javascript-sdk\\</span\>](https://developer.algorand.org/docs/javascript-sdk)
 for more samples.
 
-> [\<span class="underline"\>Web App: Client Wrapper\</span\>](https://developer.algorand.org/docs/javascript-sdk#webapp-client)
+> [\\<span class="underline"\>Web App: Client Wrapper\\</span\>](https://developer.algorand.org/docs/javascript-sdk#webapp-client)
 > [Functions](https://developer.algorand.org/docs/javascript-sdk#webapp-client)
 > 
-> [\<span class="underline"\>Node: Retrieving Latest Block\</span\>](https://developer.algorand.org/docs/javascript-sdk#node-example-latest)
+> [\\<span class="underline"\>Node: Retrieving Latest Block\\</span\>](https://developer.algorand.org/docs/javascript-sdk#node-example-latest)
 > [Information](https://developer.algorand.org/docs/javascript-sdk#node-example-latest)
 > 
-> [\<span class="underline"\>Node: Creating a New Wallet and Account Using\</span\>](https://developer.algorand.org/docs/javascript-sdk#node-example-create-wallet)
+> [\\<span class="underline"\>Node: Creating a New Wallet and Account Using\\</span\>](https://developer.algorand.org/docs/javascript-sdk#node-example-create-wallet)
 > [kmd](https://developer.algorand.org/docs/javascript-sdk#node-example-create-wallet)
 > 
-> [\<span class="underline"\>Node: Backing Up and Restoring a\</span\>](https://developer.algorand.org/docs/javascript-sdk#node-example-backup-wallet)
+> [\\<span class="underline"\>Node: Backing Up and Restoring a\\</span\>](https://developer.algorand.org/docs/javascript-sdk#node-example-backup-wallet)
 > [Wallet](https://developer.algorand.org/docs/javascript-sdk#node-example-backup-wallet)
 > 
-> [\<span class="underline"\>Node: Signing and Submitting a\</span\>](https://developer.algorand.org/docs/javascript-sdk#node-example-sign)
+> [\\<span class="underline"\>Node: Signing and Submitting a\\</span\>](https://developer.algorand.org/docs/javascript-sdk#node-example-sign)
 > [Transaction](https://developer.algorand.org/docs/javascript-sdk#node-example-sign)
 > 
-> [\<span class="underline"\>Node: Locating a\</span\>](https://developer.algorand.org/docs/javascript-sdk#node-example-find-transaction)
+> [\\<span class="underline"\>Node: Locating a\\</span\>](https://developer.algorand.org/docs/javascript-sdk#node-example-find-transaction)
 > [Transaction](https://developer.algorand.org/docs/javascript-sdk#node-example-find-transaction)
 > 
-> [\<span class="underline"\>Node: Writing to the Note Field of a\</span\>](https://developer.algorand.org/docs/javascript-sdk#node-example-note-write)
+> [\\<span class="underline"\>Node: Writing to the Note Field of a\\</span\>](https://developer.algorand.org/docs/javascript-sdk#node-example-note-write)
 > [Transaction](https://developer.algorand.org/docs/javascript-sdk#node-example-note-write)
 > 
-> [\<span class="underline"\>Node: Reading the Note Field of a\</span\>](https://developer.algorand.org/docs/javascript-sdk#node-example-note-read)
+> [\\<span class="underline"\>Node: Reading the Note Field of a\\</span\>](https://developer.algorand.org/docs/javascript-sdk#node-example-note-read)
 > [Transaction](https://developer.algorand.org/docs/javascript-sdk#node-example-note-read)
 > 
-> [\<span class="underline"\>Node:&nbsp;Creating a Multisignature Account and\</span\>](https://developer.algorand.org/docs/javascript-sdk#node-example-multisig)
+> [\\<span class="underline"\>Node: Creating a Multisignature Account and\\</span\>](https://developer.algorand.org/docs/javascript-sdk#node-example-multisig)
 > [Signing a](https://developer.algorand.org/docs/javascript-sdk#node-example-multisig)
 > [Transaction](https://developer.algorand.org/docs/javascript-sdk#node-example-multisig)
 
-13. [**\<span class="underline"\>Skip to next\<br\> section\</span\>**](#_heading=h.28h4qwu)
+13. [**\\<span class="underline"\>Skip to next\\<br\> section\\</span\>**](#_heading=h.28h4qwu)
 
 > <span id="bookmark=id.3ygebqi" class="anchor"></span>**Go SDK
 > **Time Estimate - 20 minutes
@@ -990,7 +981,7 @@ folder in VS Code
 
 If you have not already done so, Download/clone the Go SDK from:
 
-[\<span class="underline"\>https://github.com/algorand/go-algorand-sdk\</span\>](https://github.com/algorand/go-algorand-sdk)
+[\\<span class="underline"\>https://github.com/algorand/go-algorand-sdk\\</span\>](https://github.com/algorand/go-algorand-sdk)
 
 7. **Review the readme file:**
 
@@ -1066,7 +1057,7 @@ signed transaction) and submits it to Algod process of a node.
 Here, we first create a simple multisig payment transaction, with three
 public identities and a threshold of 2.
 
-[**\<span class="underline"\>Skip to next section\</span\>**](#resources)
+[**\\<span class="underline"\>Skip to next section\\</span\>**](#resources)
 
 ## Java SDK
 
@@ -1088,7 +1079,7 @@ information of the latest block. (Other code functions are
 optional).
 4. Show the Go SDK at:
 
-> [\<span class="underline"\>https://github.com/algorand/go-algorand-sdk\</span\>](https://github.com/algorand/go-algorand-sdk)
+> [\\<span class="underline"\>https://github.com/algorand/go-algorand-sdk\\</span\>](https://github.com/algorand/go-algorand-sdk)
 
 ### GetBlock.java – gets the status and lastround
 
@@ -1165,7 +1156,7 @@ public identities and a threshold of 2.
 
 This sample shows how to encode and decode the Note Field to build Layer 2 solutions.
 
-[**\<span class="underline"\>Skip to next section\</span\>**](#resources)
+[**\\<span class="underline"\>Skip to next section\\</span\>**](#resources)
 
 ##
 Python SDK
@@ -1187,7 +1178,7 @@ generated](images/media/image49.png)
 
 3. If not already done, clone or download the Python SDK at:
 
-> [\<span class="underline"\>https://github.com/algorand/py-algorand-sdk\</span\>](https://github.com/algorand/py-algorand-sdk)
+> [\\<span class="underline"\>https://github.com/algorand/py-algorand-sdk\\</span\>](https://github.com/algorand/py-algorand-sdk)
 
 4. Use the instructions on the readme file to install the SDK
 5. In this section we will run the example.py code from the SDK. Before
@@ -1201,22 +1192,26 @@ goal wallet new [wallet name] -d [data directory]
 goal account new -d [data directory] -w [wallet name]
 
 7. Paste the account address into the [Algorand](https://bank.testnet.algorand.network/)
-[\<span class="underline"\>TestNet\</span\>](https://bank.testnet.algorand.network/)
+[\\<span class="underline"\>TestNet\\</span\>](https://bank.testnet.algorand.network/)
 [Dispenser](https://bank.testnet.algorand.network/) to send
 Algos to this account.
 8. Edit params.py and add token information and data-dir-path
-1) Edit params.py
-2) Add token info for algod and kmd
-3) Add your data directory path
+
+
+1. Edit params.py
+2. Add token info for algod and kmd
+3. Add your data directory path
 
 ![A screenshot of a cell phone Description automatically
 generated](images/media/image50.png)
 
 9. Edit example.py
-1) Edit example.py
-2) Uncomment Enter your Wallet, password and account info
-3) Comment prompt for these values
-4) Run the code and see the results in the Output console
+
+
+1. Edit example.py
+2. Uncomment Enter your Wallet, password and account info
+3. Comment prompt for these values
+4. Run the code and see the results in the Output console
 
 ![A screenshot of a cell phone Description automatically
 generated](images/media/image51.png)
@@ -1259,26 +1254,26 @@ generated](images/media/image53.png)
 Other examples – (optional)
 
 Using the Wallet class
-[\<span class="underline"\>https://github.com/algorand/py-algorand-sdk#using-the-wallet-class\</span\>](https://github.com/algorand/py-algorand-sdk#using-the-wallet-class)
+[\\<span class="underline"\>https://github.com/algorand/py-algorand-sdk#using-the-wallet-class\\</span\>](https://github.com/algorand/py-algorand-sdk#using-the-wallet-class)
 
 Backing up a wallet with mnemonic
-[\<span class="underline"\>https://github.com/algorand/py-algorand-sdk#backing-up-a-wallet-with-mnemonic\</span\>](https://github.com/algorand/py-algorand-sdk#backing-up-a-wallet-with-mnemonic)
+[\\<span class="underline"\>https://github.com/algorand/py-algorand-sdk#backing-up-a-wallet-with-mnemonic\\</span\>](https://github.com/algorand/py-algorand-sdk#backing-up-a-wallet-with-mnemonic)
 
 Recovering a wallet using a backup phrase
-[\<span class="underline"\>https://github.com/algorand/py-algorand-sdk#recovering-a-wallet-using-a-backup-phrase\</span\>](https://github.com/algorand/py-algorand-sdk#recovering-a-wallet-using-a-backup-phrase)
+[\\<span class="underline"\>https://github.com/algorand/py-algorand-sdk#recovering-a-wallet-using-a-backup-phrase\\</span\>](https://github.com/algorand/py-algorand-sdk#recovering-a-wallet-using-a-backup-phrase)
 
 Writing transactions to file
-[\<span class="underline"\>https://github.com/algorand/py-algorand-sdk#writing-transactions-to-file\</span\>](https://github.com/algorand/py-algorand-sdk#writing-transactions-to-file)
+[\\<span class="underline"\>https://github.com/algorand/py-algorand-sdk#writing-transactions-to-file\\</span\>](https://github.com/algorand/py-algorand-sdk#writing-transactions-to-file)
 
 Manipulating multisig transactions
-[\<span class="underline"\>https://github.com/algorand/py-algorand-sdk#manipulating-multisig-transactions\</span\>](https://github.com/algorand/py-algorand-sdk#manipulating-multisig-transactions)
+[\\<span class="underline"\>https://github.com/algorand/py-algorand-sdk#manipulating-multisig-transactions\\</span\>](https://github.com/algorand/py-algorand-sdk#manipulating-multisig-transactions)
 
 ### Working with the Note Field:
 
-[\<span class="underline"\>https://github.com/algorand/py-algorand-sdk#working-with-notefield\</span\>](https://github.com/algorand/py-algorand-sdk#working-with-notefield)
+[\\<span class="underline"\>https://github.com/algorand/py-algorand-sdk#working-with-notefield\\</span\>](https://github.com/algorand/py-algorand-sdk#working-with-notefield)
 
 ##
-[**\<span class="underline"\>Skip to next section\</span\>**](#resources)
+[**\\<span class="underline"\>Skip to next section\\</span\>**](#resources)
 
 **
 **
@@ -1289,57 +1284,57 @@ Manipulating multisig transactions
 
 AlgoExplorer.io
 
-* [\<span class="underline"\>https://algoexplorer.io/\</span\>](https://algoexplorer.io/)
+* [\\<span class="underline"\>https://algoexplorer.io/\\</span\>](https://algoexplorer.io/)
 
 Algorand GitHub
 
-* [\<span class="underline"\>https://github.com/algorand\</span\>](https://github.com/algorand)
+* [\\<span class="underline"\>https://github.com/algorand\\</span\>](https://github.com/algorand)
 
 Algorand TestNet Dispenser
 
-* [\<span class="underline"\>https://bank.testnet.algorand.network/\</span\>](https://bank.testnet.algorand.network/)
+* [\\<span class="underline"\>https://bank.testnet.algorand.network/\\</span\>](https://bank.testnet.algorand.network/)
 
 Developer Portal
 
-* [\<span class="underline"\>https://developer.algorand.org/\</span\>](https://developer.algorand.org/docs/developer-faq)
+* [\\<span class="underline"\>https://developer.algorand.org/\\</span\>](https://developer.algorand.org/docs/developer-faq)
 
 Developer FAQs
 
-* [\<span class="underline"\>https://developer.algorand.org/docs/developer-faq\</span\>](https://developer.algorand.org/docs/developer-faq)
+* [\\<span class="underline"\>https://developer.algorand.org/docs/developer-faq\\</span\>](https://developer.algorand.org/docs/developer-faq)
 
 Forums
 
-* [\<span class="underline"\>https://forum.algorand.org/\</span\>](https://forum.algorand.org/)
+* [\\<span class="underline"\>https://forum.algorand.org/\\</span\>](https://forum.algorand.org/)
 
 Community Portal – Events, Blog, Chapters, etc
 
-* [\<span class="underline"\>https://community.algorand.org/\</span\>](https://community.algorand.org/)
+* [\\<span class="underline"\>https://community.algorand.org/\\</span\>](https://community.algorand.org/)
 
 Community Ambassador program
 
-* [\<span class="underline"\>https://community.algorand.org/ambassadors/\</span\>](https://community.algorand.org/ambassadors/)
+* [\\<span class="underline"\>https://community.algorand.org/ambassadors/\\</span\>](https://community.algorand.org/ambassadors/)
 
 Swagger hub
 
-* [\<span class="underline"\>https://swagger.io/tools/swaggerhub/\</span\>](https://swagger.io/tools/swaggerhub/)
+* [\\<span class="underline"\>https://swagger.io/tools/swaggerhub/\\</span\>](https://swagger.io/tools/swaggerhub/)
 
 Algorand Foundation Roadmap
 
-* [\<span class="underline"\>https://algorand.foundation/roadmap\</span\>](https://algorand.foundation/roadmap)
+* [\\<span class="underline"\>https://algorand.foundation/roadmap\\</span\>](https://algorand.foundation/roadmap)
 
 Token Dynamics
 
-* [\<span class="underline"\>https://algorand.foundation/token-dynamics\</span\>](https://algorand.foundation/token-dynamics)
+* [\\<span class="underline"\>https://algorand.foundation/token-dynamics\\</span\>](https://algorand.foundation/token-dynamics)
 
 YouTube Algorand
 
-* [\<span class="underline"\>https://www.youtube.com/algorand\</span\>](https://www.youtube.com/algorand)
+* [\\<span class="underline"\>https://www.youtube.com/algorand\\</span\>](https://www.youtube.com/algorand)
 
 Consensus 2019 videos - Turing award winner - Silvio Micali keynote - is
 in the second group (Construct) #55 - Building the Technical Innovation
 Required for a New Borderless Economy
 
-* [\<span class="underline"\>https://www.coindesk.com/events/consensus-2019/videos\</span\>](https://www.coindesk.com/events/consensus-2019/videos)
+* [\\<span class="underline"\>https://www.coindesk.com/events/consensus-2019/videos\\</span\>](https://www.coindesk.com/events/consensus-2019/videos)
 
 ![A screenshot of a social media post Description automatically
 generated](images/media/image54.png)
@@ -1347,21 +1342,21 @@ generated](images/media/image54.png)
 More resources here:
 
 * Go
-[\<span class="underline"\>https://golang.org/doc/install\</span\>](https://golang.org/doc/install).
+[\\<span class="underline"\>https://golang.org/doc/install\\</span\>](https://golang.org/doc/install).
 * Python
-[\<span class="underline"\>www.python.org/downloads\</span\>](http://www.python.org/downloads)
+[\\<span class="underline"\>www.python.org/downloads\\</span\>](http://www.python.org/downloads)
 * Maven
-[\<span class="underline"\>http://www.codebind.com/mac-osx/install-maven-mac-os/\</span\>](http://www.codebind.com/mac-osx/install-maven-mac-os/)
+[\\<span class="underline"\>http://www.codebind.com/mac-osx/install-maven-mac-os/\\</span\>](http://www.codebind.com/mac-osx/install-maven-mac-os/)
 
 > or
 > 
-> [\<span class="underline"\>https://www.baeldung.com/install-maven-on-windows-linux-mac\</span\>](https://www.baeldung.com/install-maven-on-windows-linux-mac)
+> [\\<span class="underline"\>https://www.baeldung.com/install-maven-on-windows-linux-mac\\</span\>](https://www.baeldung.com/install-maven-on-windows-linux-mac)
 
 * Java
-[\<span class="underline"\>https://www.oracle.com/technetwork/java/javase/downloads/index.html\</span\>](https://www.oracle.com/technetwork/java/javase/downloads/index.html)
+[\\<span class="underline"\>https://www.oracle.com/technetwork/java/javase/downloads/index.html\\</span\>](https://www.oracle.com/technetwork/java/javase/downloads/index.html)
 * Enable JavaScript in browsers
-[\<span class="underline"\>https://www.techwalla.com/articles/how-to-enable-javascript-on-a-mac\</span\>](https://www.techwalla.com/articles/how-to-enable-javascript-on-a-mac)
+[\\<span class="underline"\>https://www.techwalla.com/articles/how-to-enable-javascript-on-a-mac\\</span\>](https://www.techwalla.com/articles/how-to-enable-javascript-on-a-mac)
 * Install Node JS for localhost server
-[\<span class="underline"\>https://www.npmjs.com/package/http-server\</span\>](https://www.npmjs.com/package/http-server)
+[\\<span class="underline"\>https://www.npmjs.com/package/http-server\\</span\>](https://www.npmjs.com/package/http-server)
 
 #
